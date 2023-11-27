@@ -216,7 +216,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/jpg/background.jpg);
+    url(../images/jpg/people-office-mb.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
@@ -404,6 +404,7 @@ img {
   margin: 0;
   margin-bottom: 8px;
 }
+
 .mb-five {
   margin-bottom: 8px;
 }
@@ -444,12 +445,13 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .portfolio_list {
   display: flex;
-  gap: 72px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .portfolio_card {
   max-width: 264px;
