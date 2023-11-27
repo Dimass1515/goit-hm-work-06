@@ -60,6 +60,20 @@
   .company_item {
     width: calc((100% - 24px) / 2);
   }
+  .section-three-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+  .section-three-list-item {
+    width: calc((100% - 48px) / 2);
+  }
+  .portfolio_list {
+    flex-direction: row;
+  }
+  .portfolio_card {
+    width: calc((100% - 24px) / 2);
+  }
 }
 /* 768px */
 
@@ -79,7 +93,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/jpg/background.jpg);
+        url(..//images/jpg/people-office-mb2x.jpg);
     }
   }
 
@@ -89,7 +103,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/jpg/background.jpg);
+        url(../images/jpg/people-office-tb2x.jpg);
     }
   }
   @media (min-width: 1158px) {
@@ -98,7 +112,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/jpg/background.jpg);
+        url(../images/jpg/people-office-desc2x.jpg);
     }
   }
 }
