@@ -128,7 +128,10 @@
           <ul class="section-three-list">
             <li class="section-three-list-item">
               <img
-                srcset="./images/jpg/MarkGuerrero.jpg 1x"
+                srcset="
+                  ./images/jpg/MarkGuerrero.jpg 1x,
+                  images/jpg/MarkGuerrero2x.jpg 2x
+                "
                 src="./images/jpg/MarkGuerrero.jpg"
                 alt="Mark Guerrero"
               />
@@ -184,7 +187,14 @@
               </div>
             </li>
             <li class="section-three-list-item">
-              <img src="./images/jpg/img_TomFord.jpg" alt="Tom Ford" />
+              <img
+                srcset="
+                  ./images/jpg/TomFord.jpg 1x,
+                  images/jpg/TomFord2x.jpg 2x
+                "
+                src="./images/jpg/TomFord.jpg"
+                alt="Tom Ford"
+              />
               <div class="section-three-item-text">
                 <h3 class="heading-three text-centered">Tom Ford</h3>
                 <p class="paragraph text-centered mb-five">
@@ -240,7 +250,11 @@
             </li>
             <li class="section-three-list-item">
               <img
-                src="./images/jpg/img_CamilaGarcia.jpg"
+                srcset="
+                  ./images/jpg/CamilaGarcia.jpg 1x,
+                  images/jpg/CamilaGarcia2x.jpg 2x
+                "
+                src="./images/jpg/CamilaGarcia.jpg"
                 alt="Camila Garcia"
               />
               <div class="section-three-item-text">
@@ -296,7 +310,11 @@
             </li>
             <li class="section-three-list-item">
               <img
-                src="./images/jpg/img_DanielWilson.jpg"
+                srcset="
+                  ./images/jpg/DanielWilson.jpg 1x,
+                  images/jpg/DanielWilson2x.jpg 2x
+                "
+                src="./images/jpg/DanielWilson.jpg"
                 alt="Daniel Wilson"
               />
               <div class="section-three-item-text">
@@ -359,11 +377,35 @@
           <ul class="portfolio_list">
             <li class="portfolio_card">
               <div class="portfolio_images">
-                <img
+                <!-- <img
                   src="./images/jpg/image_1.jpg"
                   alt="Banking App"
                   width="360"
-                />
+                /> -->
+                <picture>
+                  <source
+                    srcset="
+                      ./images/jpg/P_Banking-desc.jpg 1x,
+                      ./images/jpg/P_Banking-desc.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/P_Banking-tab.jpg   1x,
+                      ./images/P_Banking-tab2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/P_Banking.jpg   1x,
+                      ./images/P_Banking2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img src="./images/P_Banking.jpg" alt="Banking App" />
+                </picture>
                 <p class="portfolio_images_paragraf">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
