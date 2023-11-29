@@ -74,6 +74,31 @@
   .portfolio_card {
     width: calc((100% - 24px) / 2);
   }
+  .footer_container {
+    align-items: baseline;
+    margin: 0 auto;
+    width: 584px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .logo_footer_container {
+    text-align: start;
+  }
+  .footer_social_paragraf {
+    text-align: start;
+  }
+  .subscribe {
+    margin-right: 25px;
+  }
+  .subscribe_paragraf {
+    text-align: start;
+  }
+  .email_form {
+    gap: 24px;
+    flex-direction: row;
+  }
 }
 /* 768px */
 
