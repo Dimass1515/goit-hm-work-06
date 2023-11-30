@@ -97,11 +97,6 @@ img {
   padding: 0 15px;
 }
 
-.container {
-  width: 320px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .menu_nav {
   display: flex;
   align-items: center;
