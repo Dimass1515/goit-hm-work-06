@@ -130,6 +130,11 @@
     gap: 24px;
     flex-direction: row;
   }
+  .modal_window {
+    width: 408px;
+    height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1157px) {
   .business_title {
@@ -334,6 +339,41 @@
   }
   .portfolio_card {
     width: calc((100% - 48px) / 3);
+    max-width: 360px;
+  }
+  .portfolio_images_paragraf {
+    margin: 0;
+    left: 0;
+    top: 0;
+  }
+  .footer_container {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 0;
+  }
+  .logo_footer_container {
+    margin-right: 120px;
+  }
+  .header_logo_footer {
+    display: flex;
+  }
+  .social_div {
+    margin-right: 80px;
+  }
+  .footer_social_paragraf {
+    text-align: start;
+  }
+  .subscribe_paragraf {
+    text-align: start;
+  }
+  .email_form {
+    flex-direction: row;
+  }
+  .modal_window {
+    width: 408px;
+    height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
 
