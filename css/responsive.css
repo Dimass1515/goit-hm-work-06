@@ -5,6 +5,89 @@
     margin: 0 auto;
     padding: 0 15px;
   }
+  /* Mobile Window */
+
+  .mobile_window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .mobile_window.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .mobile_header_menu {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 72px 24px 24px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .button_window_close {
+    background-color: white;
+  }
+  .menu_item {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  .link {
+    color: #2e2f42;
+    text-align: start;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding: 0;
+  }
+  .ocean {
+    color: var(--OCEAN, #404bbf);
+  }
+  .menu_list {
+    margin-bottom: 328px;
+  }
+  .mobile_address {
+    font-style: normal;
+  }
+  .address_list {
+    flex-direction: column;
+    gap: 24px;
+    display: flex;
+  }
+  .contact_link {
+    padding: 0;
+  }
+  .address_list {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin: 0;
+    margin-bottom: 48px;
+  }
+  .ocean_number {
+    color: var(--IRIS, #4d5ae5);
+  }
+  .mobile_svg_list {
+    display: flex;
+    gap: 40px;
+  }
+  /* Mobile Window */
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -38,6 +121,7 @@
     max-width: 768px;
     padding-left: 16px;
     padding-right: 16px;
+    margin: 0 auto;
   }
   .header_container {
     display: flex;
@@ -159,6 +243,7 @@
     max-width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
+    margin: 0 auto;
   }
   .header_container {
     display: flex;
@@ -359,7 +444,7 @@
     display: flex;
   }
   .social_div {
-    margin-right: 80px;
+    margin-right: auto;
   }
   .footer_social_paragraf {
     text-align: start;
