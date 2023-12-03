@@ -479,3 +479,56 @@
     margin-right: auto;
   }
 }
+
+media="(min-width: 1158px)"
+srcset="./images/gallery/img-1_lg.jpg 1x, ./images/gallery/img-1_lg@2x.jpg 2x"
+type="image/jpg"
+/>
+media="(min-width: 768px)"
+srcset="./images/gallery/img-1_md.jpg 1x, ./images/gallery/img-1_md@2x.jpg 2x"
+type="image/jpg"
+/>
+media="(max-width: 767px)"
+srcset="./images/gallery/img-1_sm.jpg 1x, ./images/gallery/img-1_sm@2x.jpg 2x"
+type="image/jpg"
+/>
+class="card-img"
+src="./images/gallery/img-1_lg.jpg"
+alt="Ноутбук"
+width="450"
+height="294"
+loading="lazy"
+/> "
+
+
+<picture class="portfolio_picture" width="360" height="300">
+                  <source
+                    srcset="
+                      ./images/jpg/P_Banking.jpg 1x,
+                      images/jpg/P_Banking2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/apps/tab/app-tab-1.jpg    1x,
+                      ./images/apps/tab/app-tab-1@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/apps/mob/app-mob-1.jpg    1x,
+                      ./images/apps/mob/app-mob-1@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/apps/desk/app-desk-1.jpg"
+                    alt="Images of app"
+                  />
+                </picture>
+
+
+
+                
